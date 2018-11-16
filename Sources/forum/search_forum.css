@@ -1,0 +1,46 @@
+.message_bloc1{
+
+
+
+margin: auto;
+width: 70%;
+background-color: white;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-bottom: 10px;
+border: 0;
+border-radius: 10px;
+
+}
+.message_bloc2{
+margin: auto;
+width: 70%;
+background-color: rgb(210,210,210);
+padding-left: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-bottom: 10px;
+border: 0;
+border-radius: 10px;
+}
+
+.message_bloc{
+display: inline-block;
+padding-left: 20px;
+width: 70%;
+word-wrap: break-word;
+overflow: hidden;
+
+}
+
+.user_info{
+display: inline-block;
+float: left;
+text-align: center;
+
+}
+.user{
+  text-decoration: underline;
+  text-align: center;
+}

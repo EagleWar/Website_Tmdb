@@ -1,0 +1,151 @@
+header{
+  margin-top: -20px;
+  background-color: #273547;
+  font-size: 20px;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  display: block;
+}
+
+
+.print-table{
+
+  width: 100%;
+
+}
+
+.logo{
+  display: inline-block;
+  padding-top: 20px;
+
+}
+
+.search{
+  display: inline-block;
+
+}
+
+.login{
+
+  display: inline-block;
+  float: right;
+
+}
+
+nav{
+  display: inline-block;
+
+}
+.logo_accueil{
+  position: relative;
+  top: 16px;
+}
+.li_menu,li{
+  display: inline-block;
+  color: whitesmoke;
+  padding-bottom: 1px;
+  padding-right: 12px;
+}
+
+
+.li_menu a,.link{
+  text-decoration: none; color: whitesmoke;
+  display: grid;
+
+
+}
+ul{text-align: center;}
+
+
+
+#search_button{
+  margin-left: 5px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #273547;
+  border: 0;
+  width: 270px;
+  height: 35px;
+  margin-right: 50px;
+  border-radius: 2px;
+  color: white;
+}
+
+
+form{
+  text-align: center;
+}
+
+form input{
+  width: 300px;
+  height: 30px;
+  border-radius: 2px;
+  border: 0;
+  border-bottom: 3px solid whitesmoke;
+  background: transparent;
+}
+.bloc{padding: 30px 25px;}
+.fond{
+  background:#24292E;
+  color: whitesmoke;
+}
+footer{text-align: center;}
+
+
+
+.row{
+
+margin:auto;
+padding: 40px;
+width: 70%;
+border-bottom: 1.5px solid grey;
+
+}
+.title{
+padding-right: 20px;
+border-right: 1.5px solid black;
+  width: 30%;
+
+
+}
+
+.title a{
+
+  text-decoration: none;
+
+}
+
+.title a:hover{
+  text-decoration: underline;
+}
+
+.forum_id{
+padding-right: 20px;
+padding-left: 20px;
+border-right: 1.5px solid black;
+  width: 20%;
+
+}
+
+
+.creator{
+
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 20%;
+
+
+}
+.date{
+padding-right: 20px;
+padding-left: 20px;
+  width: 30%;
+
+}

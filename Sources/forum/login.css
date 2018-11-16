@@ -1,0 +1,90 @@
+body{
+
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+
+.login{
+
+
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+
+
+.logo_accueil{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.login_form{
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #d8dee2;
+  border-radius: 20px;
+}
+
+.input_data{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 30px;
+
+}
+
+
+#send_data_button{
+
+  width: 100%;
+  height: 30px;
+  background: #00aadc;
+  border-color: #008ab3;
+  color: white;
+  display: block;
+  border-radius: 10px;
+
+  margin-top: 40px;
+}
+
+
+.logo_accueil{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+.login_font{
+  text-align: center;
+  color: black;
+  margin-bottom: 15px;
+}
+
+
+.row{
+
+
+border-bottom: 2px solid grey;
+
+}
+
+.subscribe{
+text-align: center;
+
+}
