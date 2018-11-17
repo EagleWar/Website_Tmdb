@@ -47,9 +47,6 @@
     $synopsy = $movie->get('overview');
     if(null!=$synopsy)
     {
-        echo '<center> <img src="https://www.zone-telechargement.ws/uploads/synopsis.png" style="width:360px;height:31px;"> </center>', PHP_EOL;
-        echo "</br></br>";
-
         echo '<center>' . $synopsy . '</center>';
 
         echo "</br></br>";
