@@ -32,10 +32,7 @@
     $poster =  'https://image.tmdb.org/t/p/original' . $movie->getPoster();
     echo '<center> <img src="', $poster, '"style="width360:px;height:400px;"> </center>';
     echo "</br></br>";
-
-    echo '<center> <img src="https://www.zone-telechargement.ws/uploads/infos_upload.png" style="width:360px;height:31px;"> </center>';
-    echo "</br></br>";
-
+  
     $year = $movie->get('air_date');
     echo "<u><center> First Release Date</u> : ", $year . "</center>", PHP_EOL;
 
