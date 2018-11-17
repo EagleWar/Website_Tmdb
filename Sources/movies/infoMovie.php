@@ -32,9 +32,6 @@
     echo '<center> <img src="', $poster, '"style="width360:px;height:400px;"> </center>';
     echo "</br></br>";
 
-    echo '<center> <img src="https://www.zone-telechargement.ws/uploads/infos_upload.png" style="width:360px;height:31px;"> </center>';
-    echo "</br></br>";
-
     $cast = $movie->getCrew();
     foreach ($cast as $i => $person) 
     {
@@ -75,9 +72,6 @@
 
     $vote_count = $movie->getVoteCount();
     echo "<u><center> Vote Count</u> : ", $vote_count . "</center>", PHP_EOL;
-    echo "</br></br>";
-
-    echo '<center> <img src="https://www.zone-telechargement.ws/uploads/synopsis.png" style="width:360px;height:31px;"> </center>', PHP_EOL;
     echo "</br></br>";
 
     $synopsy = $movie->get('overview');
